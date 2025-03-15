@@ -1,27 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="x-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initisl-scale=1.0">
-        <title>Document</title>
-        <script src="http://kit.fontawesome.com/f3fac2c61.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@2008">
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Lightbox Image Gallery </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lightbox.css">
+
     </head>
     <body>
+        
         <div class="container">
-            <h1>TODO APP</h1>
-            <div class="inputs">
-                <input type="text" placeholder="Enter your Task" id="inp">
-                <button onclick="Add()">Add</button>
-            </div>
-            <div class="text">
+            <div class="Gallery">
+                <a href="udaipurimages/image1.jpg" data-lightbox="Udaipur" data-titles="Caption1">
+                    <img src="udaipurimages/image1.jpg">
+                </a>
+
+                <a href="udaipurimages/image2.jpg" data-lightbox="Udaipur" data-titles="Caption2">
+                    <img src="udaipurimages/image2.jpg">
+                </a>
+
+                <a href="udaipurimages/image3.jpg" data-lightbox="Udaipur" data-titles="Caption3">
+                    <img src="udaipurimages/image3.jpg">
+                </a>
+
+                <a href="udaipurimages/image4.jpg" data-lightbox="Udaipur" data-titles="Caption4">
+                    <img src="udaipurimages/image4.jpg">
+                </a>
+
+                <a href="udaipurimages/image5.jpg" data-lightbox="Udaipur" data-titles="Caption5">
+                    <img src="udaipurimages/image5.jpg">
+                </a>
+
+                <a href="udaipurimages/image6.jpg" data-lightbox="Udaipur" data-titles="Caption6">
+                    <img src="udaipurimages/image6.jpg">
+                </a>
+
+                <a href="udaipurimages/image7.jpg" data-lightbox="Udaipur" data-titles="Caption7">
+                    <img src="udaipurimages/image7.jpg">
+                </a>
+
+                <a href="udaipurimages/image8.jpg" data-lightbox="Udaipur" data-titles="Caption8">
+                    <img src="udaipurimages/image8.jpg">
+                </a>
                 
             </div>
         </div>
-
-
-        <script src="script.js"></script>
+        <script>src="lightbox-plus-jquery.js"</script>
     </body>
 </html>
