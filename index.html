@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Calculator</title>
-        <link rel="stylesheet" type="text/css" href="style..css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Lightbox Image Gallery </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lightbox.css">
+
     </head>
     <body>
+        
         <div class="container">
-            <div class="calculator">
+            <div class="Gallery">
+                <a href="udaipurimages/image1.jpg" data-lightbox="Udaipur" data-titles="Caption1">
+                    <img src="udaipurimages/image1.jpg">
+                </a>
 
-                <form>
-                                    <div class="display">
-                    <input type="text" name="display">
-                </div >
-                <div>
-                    <input type="button" value="AC" onclick="display.value=''">
-                    <input type="button" value="DE"  onclick="display.value = display.value.tostring().slice(0,-1)">
+                <a href="udaipurimages/image2.jpg" data-lightbox="Udaipur" data-titles="Caption2">
+                    <img src="udaipurimages/image2.jpg">
+                </a>
 
-                    <input type="button" value="." onclick="display.value+='.'">
-                    <input type="button" value="/" onclick="display.value+='/'">
-                </div>
+                <a href="udaipurimages/image3.jpg" data-lightbox="Udaipur" data-titles="Caption3">
+                    <img src="udaipurimages/image3.jpg">
+                </a>
 
-                <div>
-                    <input type="button" value="7" onclick="display.value+='7' ">
-                    <input type="button" value="8" onclick="display.value+='8' ">
-                    <input type="button" value="9" onclick="display.value+='9' ">
-                    <input type="button" value="*" onclick="display.value+='*' ">
-                </div>
+                <a href="udaipurimages/image4.jpg" data-lightbox="Udaipur" data-titles="Caption4">
+                    <img src="udaipurimages/image4.jpg">
+                </a>
 
-                <div>
-                    <input type="button" value="4" onclick="display.value+='4' ">
-                    <input type="button" value="5" onclick="display.value+='5' ">
-                    <input type="button" value="6" onclick="display.value+='6' ">
-                    <input type="button" value="-" onclick="display.value+='-' ">
-                </div>
+                <a href="udaipurimages/image5.jpg" data-lightbox="Udaipur" data-titles="Caption5">
+                    <img src="udaipurimages/image5.jpg">
+                </a>
 
-                <div>
-                    <input type="button" value="1" onclick="display.value+='1' ">
-                    <input type="button" value="2" onclick="display.value+='2' ">
-                    <input type="button" value="3" onclick="display.value+='3' ">
-                    <input type="button" value="+" onclick="display.value+='+' ">
-                </div>
+                <a href="udaipurimages/image6.jpg" data-lightbox="Udaipur" data-titles="Caption6">
+                    <img src="udaipurimages/image6.jpg">
+                </a>
 
-                <div>
-                    <input type="button" value="%" onclick="display.value+='%' ">
-                    <input type="button" value="00" onclick="display.value+='00' ">
-                    <input type="button" value="0" onclick="display.value+='0' ">
-                    <input type="button" value="=" onclick="display.value=eval(display.value)">
-                </div>
+                <a href="udaipurimages/image7.jpg" data-lightbox="Udaipur" data-titles="Caption7">
+                    <img src="udaipurimages/image7.jpg">
+                </a>
 
+                <a href="udaipurimages/image8.jpg" data-lightbox="Udaipur" data-titles="Caption8">
+                    <img src="udaipurimages/image8.jpg">
+                </a>
+                
             </div>
-        </form>
-
         </div>
+        <script>src="lightbox-plus-jquery.js"</script>
     </body>
 </html>
